@@ -6,7 +6,7 @@ import os
 today = date.today()
 d1 = today.strftime("%d-%m-%Y")
 
-path = "C:/Users/Upanshu/Documents/Python/monopoly"
+path = ""
 
 if not os.path.exists(f'{path}/{d1}'):
     os.mkdir(f'{path}/{d1}')
