@@ -22,4 +22,8 @@ Once this is done, you will be prompted with  `Enter command:`
   `ledger` prints all the transactions that took place since the beginning
 
 ## Extra feature 
-I have added an extra feature which is that all players' balance is stored in a `.txt` file and is updated after every command you enter. To specify the location where you want to save the text file, upadte the `path` variable in 
+I have added an extra feature which is that all players' balance is stored in a `.txt` file and is updated after every command you enter. To specify the location where you want to save the text file, upadte the `path` variable on line 9 of `bank.py`. The code will create a directory inside your specified path. The folder name will be the current date and inside you will find `balances.txt`. The file won't auto change when it is open, so you need to close and open the file everytime you want to look at the latest updated balances.
+
+
+
+Feel free to let me know about any bugs, or any suggestions. Have a wonderful day :)
