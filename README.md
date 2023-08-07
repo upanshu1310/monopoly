@@ -8,17 +8,19 @@ It is a device that has 2 slots where you can insert your monopoly card. A playe
 When you run `bank.py` in your terminal, it first asks you the number of players followed by their names and card colours (optional)\
 Once this is done, you will be prompted with  `Enter command:` 
 
-- Spend
+Below are the list of commands you can use:
+
+- Spend\
   `playerName.spend(amount)` deducts `amount` from `playerName`'s balance
-- Collect
+- Collect\
   `playerName.collect(amount)` adds `amount` to `playerName`'s balance
-- Transfer
+- Transfer\
   `playerA.transfer(playerB, amount)` transfers `amount` from `playerA` to `playerB`
-- Check balance
+- Check balance\
   `playerName.balance` prints `playerName`'s balance
-- Player transaction history
+- Player transaction history\
   `playerName.history` prints all the transactions done by `playerName` (also includes transactions where `playerName` has receieved money from another player)
-- Ledger
+- Ledger\
   `ledger` prints all the transactions that took place since the beginning
 
 ## Extra feature 
